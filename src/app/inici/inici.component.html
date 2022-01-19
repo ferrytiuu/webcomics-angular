@@ -1,25 +1,18 @@
+
+
 <div>
-
-    <h1>iterador</h1>
-
-    <div class="form-group">
-        <input type="text" class="form-control" placeholder="Entra el nom de l'alumne" #alumne required>
+    <h1>Comics</h1>
+    <div *ngFor="let webcomic of webcomics;index as i; first as isPrimer">
+        <div class="container">
+            <div class="producte">
+                <img src="../../assets/{{webcomic.Titol}}/imatge_caratula.jpg" alt="Planta1" style="width:100%">
+                <h1>{{webcomic.Titol}}</h1>
+                <p class="autor">{{webcomic.descripcio}}</p>
+                <p>{{webcomic.Genere}}</p>
+            </div>
+        </div>
+            
+        
     </div>
-    <button class="btn btn-primary" (click)="afegirAlumne(alumne.value)">afegir</button>
-    <button class="btn btn-primary" (click)="esborrarAlumne(alumne.value)">esborrar</button>
-
-    <table class="table table-striped">
-        <thead class="thead-dark">
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Nom</th>
-            </tr>
-        <tbody>
-            <tr *ngFor="let alumne of llistaAlumnes;index as i; first as isPrimer">
-                <th scope="col">{{i+1}}</th>
-                <td> {{alumne}}</td>
-            </tr>
-        </tbody>
-    </table>
 
 </div>
