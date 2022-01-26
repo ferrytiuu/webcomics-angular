@@ -16,6 +16,211 @@ export class IniciComponent implements OnInit {
       "Imatge":"Castle Swimmer/portada.png",
       "Descripcio":"La descripcion"  
       },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
+      {"Titol":"Castle Swimmer",
+      "Genere":"Drama",
+      "Imatge":"Castle Swimmer/portada.png",
+      "Descripcio":"La descripcion"  
+      },
       {"Titol":"Nomads",
       "Genere":"Drama",
       "Imatge":"Nomads/portada.png",

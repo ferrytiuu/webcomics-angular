@@ -8,20 +8,27 @@ import { IniciComponent } from './inici/inici.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+import { RouterModule } from '@angular/router';
+import { Menu_encaminamentComponent } from './menu/menu.component';
+import { CercaComponent } from './cerca/cerca.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    IniciComponent
+    IniciComponent,
+    Menu_encaminamentComponent,
+    CercaComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     LayoutModule,
     NgbModule,
+    RouterModule,
+    AppRoutingModule,
+    
   ],
   providers: [],
-  bootstrap: [IniciComponent]
+  bootstrap: [Menu_encaminamentComponent]
 })
 export class AppModule { }

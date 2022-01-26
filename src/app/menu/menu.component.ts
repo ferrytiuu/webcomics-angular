@@ -21,6 +21,6 @@ import { NgModule } from '@angular/core';
     <router-outlet></router-outlet>
   `
 })
-export class menu_encaminament {
-  titol = 'DAW2 demo de routing';
+export class Menu_encaminamentComponent {
+  titol = 'Biblioteca de Webcomics';
 }

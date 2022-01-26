@@ -2,17 +2,12 @@
 
 <div>
     <h1>Comics</h1>
-    <div *ngFor="let webcomic of webcomics;index as i; first as isPrimer">
-        <div class="container">
+    <div class="cards" *ngFor="let webcomic of webcomics;index as i; first as isPrimer">
             <div class="producte">
                 <img src="../../assets/{{webcomic.Titol}}/imatge_caratula.jpg" alt="Planta1" style="width:100%">
                 <h1>{{webcomic.Titol}}</h1>
                 <p class="autor">{{webcomic.descripcio}}</p>
                 <p>{{webcomic.Genere}}</p>
             </div>
-        </div>
-            
-        
     </div>
-
 </div>
