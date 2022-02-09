@@ -11,6 +11,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { Menu_encaminamentComponent } from './menu/menu.component';
 import { CercaComponent } from './cerca/cerca.component';
+import { PreferitsComponent } from './preferits/preferits.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { CercaComponent } from './cerca/cerca.component';
     AppComponent,
     IniciComponent,
     Menu_encaminamentComponent,
-    CercaComponent
+    CercaComponent,
+    PreferitsComponent
   ],
   imports: [
     BrowserModule,
