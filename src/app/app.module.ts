@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 import { Menu_encaminamentComponent } from './menu/menu.component';
 import { CercaComponent } from './cerca/cerca.component';
 import { PreferitsComponent } from './preferits/preferits.component';
+import { WebcomicFichaComponent } from './webcomic-ficha/webcomic-ficha.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { PreferitsComponent } from './preferits/preferits.component';
     IniciComponent,
     Menu_encaminamentComponent,
     CercaComponent,
-    PreferitsComponent
+    PreferitsComponent,
+    WebcomicFichaComponent
   ],
   imports: [
     BrowserModule,

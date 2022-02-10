@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Webcomic} from "../dadesServei/webcomic_interface";
 import {WebcomicServei} from "../dadesServei/servei_Webcomic";
+import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({
   selector: 'aplicacio',
@@ -11,7 +12,7 @@ export class IniciComponent implements OnInit {
 
   webcomics: Webcomic[] =[];
   //webcomics:any;
-  constructor(private WebcomicService: WebcomicServei) {
+  constructor(private WebcomicService: WebcomicServei,private router: Router,private route: ActivatedRoute,) {
   }
 
   ngOnInit() {
@@ -22,8 +23,11 @@ export class IniciComponent implements OnInit {
     this.WebcomicService.obtenirWebcomics()
       .subscribe(element => this.webcomics = element);
   }
-  eliminarUsuari():void{
-    this.webcomics.pop();
+  abrirComic(id:number):void{
+    //this.router.navigate(['/webcomic', { id: id }]);
+    this.router.navigate(['/webcomic'], { queryParams: { id: id } });
+
+
   }
 
 

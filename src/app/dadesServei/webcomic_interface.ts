@@ -1,4 +1,5 @@
 export interface Webcomic {
+  id:number,
   Titol: string;
   Genere: string;
   Imatge: string;

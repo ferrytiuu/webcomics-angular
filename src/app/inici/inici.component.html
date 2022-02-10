@@ -1,7 +1,7 @@
 <div>
     <div class="images-wrapper">
         <div class="image-holder" *ngFor="let webcomic of webcomics;index as i; first as isPrimer">
-            <div class="comics">
+            <div class="comics" (click)="abrirComic(webcomic.id)">
                 <img src="../../assets/{{webcomic.Titol}}/imatge_caratula.jpg" alt="Planta1">
                 <h1>{{webcomic.Titol}}</h1>
                 <p class="autor">{{webcomic.Descripcio}}</p>

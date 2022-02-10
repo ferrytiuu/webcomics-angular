@@ -13,9 +13,9 @@ import { NgModule } from '@angular/core';
         <a class="nav-item nav-link active" routerLink="/inici" routerLinkActive="active">Inici</a>
         <a class="nav-item nav-link" routerLink="/cerca" routerLinkActive="active">Cerca</a>
         <a class="nav-item nav-link" routerLink="/preferits" routerLinkActive="active">Preferits</a>
-        
 
-        
+
+
       </div>
     </div>
   </nav>
