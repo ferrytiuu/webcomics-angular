@@ -7,11 +7,13 @@ import { IniciComponent } from './inici/inici.component';
 
 import { LayoutModule } from '@angular/cdk/layout';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbTypeahead } from '@ng-bootstrap/ng-bootstrap';
 
 import { RouterModule } from '@angular/router';
 import { Menu_encaminamentComponent } from './menu/menu.component';
 import { CercaComponent } from './cerca/cerca.component';
 import { PreferitsComponent } from './preferits/preferits.component';
+
 
 
 @NgModule({
@@ -20,7 +22,7 @@ import { PreferitsComponent } from './preferits/preferits.component';
     IniciComponent,
     Menu_encaminamentComponent,
     CercaComponent,
-    PreferitsComponent
+    PreferitsComponent,
   ],
   imports: [
     BrowserModule,

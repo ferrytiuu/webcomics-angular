@@ -1,4 +1,15 @@
 <div>
+    <!--<input id="typeahead-format" type="text" class="form-control" [(ngModel)]="model" [ngbTypeahead]="search" [resultFormatter]="formatter"/>-->
+    <input id="typeahead-format" type="text" class="form-control" placeholder="CERCA" />
+
+    <div ngbDropdown class="d-inline-block">
+        <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>FILTRAR PER GÈNERE</button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+            <div *ngFor="let genere of generes">
+                <button ngbDropdownItem>{{genere}}</button>
+            </div>
+        </div>
+    </div>
     <div class="images-wrapper">
         <div class="image-holder" *ngFor="let webcomic of webcomics;index as i; first as isPrimer">
             <div class="comics">
