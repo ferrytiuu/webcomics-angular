@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Webcomic} from "../dadesServei/webcomic_interface";
+import {WebcomicServei} from "../dadesServei/servei_Webcomic";
 
 @Component({
   selector: 'app-preferits',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PreferitsComponent implements OnInit {
 
-  constructor() { }
+  webcomics: Webcomic[] =[];
+  //:any;
+  constructor(private webcomicService: WebcomicServei) {
 
-  ngOnInit(): void {
+  }
+
+  ngOnInit() {
+    this.obtenirWebcomics();
+  }
+
+  obtenirWebcomics(): void {
+    this.webcomicService.obtenirWebcomics()
+      .subscribe(alumnes => this.webcomics = alumnes);
   }
 
 }
