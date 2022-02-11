@@ -9,14 +9,21 @@ import {WebcomicServei} from "../dadesServei/servei_Webcomic";
 })
 export class CercaComponent implements OnInit {
 
-  
-  generes = ['TERROR', 'DRAMA', 'AVENTURA'];
-  constructor() {
+
+  generes = ['TERROR','DRAMA','AVENTURA'];
+  webcomics: Webcomic[] =[];
+  //:any;
+  constructor(private webcomicService: WebcomicServei) {
+
   }
 
+  ngOnInit() {
+    this.obtenirWebcomics();
+  }
 
-  ngOnInit(): void {
+  obtenirWebcomics(): void {
+    this.webcomicService.obtenirWebcomics()
+      .subscribe(alumnes => this.webcomics = alumnes);
   }
 
 }
-
