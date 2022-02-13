@@ -14,9 +14,5 @@ export class WebcomicServei {
   obtenirWebcomics(): Observable<Webcomic[]> {
     return of(WEBCOMIC);
   }
-  eliminarUsuari(): void{
-    WEBCOMIC.pop();
 
-
-  }
 }
