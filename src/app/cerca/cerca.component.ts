@@ -9,6 +9,8 @@ import {WebcomicServei} from "../dadesServei/servei_Webcomic";
 })
 export class CercaComponent implements OnInit {
 
+
+  generes = ['TERROR','DRAMA','AVENTURA'];
   webcomics: Webcomic[] =[];
   //:any;
   constructor(private webcomicService: WebcomicServei) {

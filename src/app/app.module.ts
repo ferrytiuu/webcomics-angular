@@ -13,7 +13,6 @@ import { Menu_encaminamentComponent } from './menu/menu.component';
 import { CercaComponent } from './cerca/cerca.component';
 import { PreferitsComponent } from './preferits/preferits.component';
 import { WebcomicFichaComponent } from './webcomic-ficha/webcomic-ficha.component';
-import {NgbdModalContent} from "./inici/inici.component";
 
 
 @NgModule({
