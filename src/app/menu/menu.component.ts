@@ -20,8 +20,10 @@ import { NgModule } from '@angular/core';
     </div>
   </nav>
     <router-outlet></router-outlet>
-  `
+`
+
 })
 export class Menu_encaminamentComponent {
   titol = 'Biblioteca de Webcomics';
+
 }

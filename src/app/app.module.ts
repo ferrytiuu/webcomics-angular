@@ -13,6 +13,7 @@ import { Menu_encaminamentComponent } from './menu/menu.component';
 import { CercaComponent } from './cerca/cerca.component';
 import { PreferitsComponent } from './preferits/preferits.component';
 import { WebcomicFichaComponent } from './webcomic-ficha/webcomic-ficha.component';
+import {NgbdModalContent} from "./inici/inici.component";
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { WebcomicFichaComponent } from './webcomic-ficha/webcomic-ficha.componen
     Menu_encaminamentComponent,
     CercaComponent,
     PreferitsComponent,
-    WebcomicFichaComponent
+    WebcomicFichaComponent,
+    NgbdModalContent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,7 @@ import { WebcomicFichaComponent } from './webcomic-ficha/webcomic-ficha.componen
     NgbModule,
     RouterModule,
     AppRoutingModule,
-    
+
   ],
   providers: [],
   bootstrap: [Menu_encaminamentComponent]
