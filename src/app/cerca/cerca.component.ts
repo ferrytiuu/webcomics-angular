@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {Webcomic} from "../dadesServei/webcomic_interface";
-import {WebcomicServei} from "../dadesServei/servei_Webcomic";
+import { Webcomic } from "../dadesServei/webcomic_interface";
+import { WebcomicServei } from "../dadesServei/servei_Webcomic";
+import { filtrarPipe } from '../filtrar-cerca/filtrar-cerca.component';
 
 @Component({
   selector: 'app-cerca',
@@ -9,9 +10,11 @@ import {WebcomicServei} from "../dadesServei/servei_Webcomic";
 })
 export class CercaComponent implements OnInit {
 
+  generes: any;
 
-  generes = ['TERROR','DRAMA','AVENTURA'];
-  webcomics: Webcomic[] =[];
+  cerca: string = '';
+
+  webcomics: Webcomic[] = [];
   //:any;
   constructor(private webcomicService: WebcomicServei) {
 
@@ -19,11 +22,21 @@ export class CercaComponent implements OnInit {
 
   ngOnInit() {
     this.obtenirWebcomics();
+    this.genereBusqueda();
   }
 
   obtenirWebcomics(): void {
     this.webcomicService.obtenirWebcomics()
       .subscribe(alumnes => this.webcomics = alumnes);
+  }
+
+  genereBusqueda(): void {
+    let generes = this.webcomics.map(function (x) {
+      return x.Genere;
+    });
+
+    this.generes = new Set(generes);
+
   }
 
 }

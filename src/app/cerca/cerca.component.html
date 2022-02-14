@@ -1,6 +1,6 @@
 <div>
     <!--<input id="typeahead-format" type="text" class="form-control" [(ngModel)]="model" [ngbTypeahead]="search" [resultFormatter]="formatter"/>-->
-    <input id="typeahead-format" type="text" class="form-control" placeholder="CERCA" />
+    <input [(ngModel)]="cerca" id="typeahead-format" type="text"  class="form-control" placeholder="CERCA" />
 
     <div ngbDropdown class="d-inline-block">
         <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>FILTRAR PER GÈNERE</button>
@@ -11,7 +11,7 @@
         </div>
     </div>
     <div class="images-wrapper">
-        <div class="image-holder" *ngFor="let webcomic of webcomics;index as i; first as isPrimer">
+        <div class="image-holder" *ngFor="let webcomic of webcomics | ordenarPer:cerca;index as i; first as isPrimer">
             <div class="comics">
               <img src="../../assets/{{webcomic.Titol}}/imatge_caratula.jpg" alt="Planta1">
               <h1>{{webcomic.Titol}}</h1>

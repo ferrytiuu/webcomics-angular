@@ -13,6 +13,8 @@ import { Menu_encaminamentComponent } from './menu/menu.component';
 import { CercaComponent } from './cerca/cerca.component';
 import { PreferitsComponent } from './preferits/preferits.component';
 import { WebcomicFichaComponent } from './webcomic-ficha/webcomic-ficha.component';
+import { filtrarPipe } from './filtrar-cerca/filtrar-cerca.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -23,7 +25,8 @@ import { WebcomicFichaComponent } from './webcomic-ficha/webcomic-ficha.componen
     CercaComponent,
     PreferitsComponent,
     WebcomicFichaComponent,
-    NgbdModalContent
+    NgbdModalContent,
+    filtrarPipe,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +34,7 @@ import { WebcomicFichaComponent } from './webcomic-ficha/webcomic-ficha.componen
     NgbModule,
     RouterModule,
     AppRoutingModule,
+    FormsModule
 
   ],
   providers: [],
