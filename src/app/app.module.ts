@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {IniciComponent, NgbdModalContent} from './inici/inici.component';
+import {IniciComponent} from './inici/inici.component';
 
 import { LayoutModule } from '@angular/cdk/layout';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -13,6 +13,8 @@ import { Menu_encaminamentComponent } from './menu/menu.component';
 import { CercaComponent } from './cerca/cerca.component';
 import { PreferitsComponent } from './preferits/preferits.component';
 import { WebcomicFichaComponent } from './webcomic-ficha/webcomic-ficha.component';
+import { webcomicNgComponent } from './webcomic-ng/webcomic-ng.component';
+
 import { filtrarPipe } from './filtrar-cerca/filtrar-cerca.component';
 import { FormsModule } from '@angular/forms';
 
@@ -25,7 +27,7 @@ import { FormsModule } from '@angular/forms';
     CercaComponent,
     PreferitsComponent,
     WebcomicFichaComponent,
-    NgbdModalContent,
+    webcomicNgComponent,
     filtrarPipe,
   ],
   imports: [

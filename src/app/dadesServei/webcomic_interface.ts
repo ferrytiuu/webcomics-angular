@@ -4,6 +4,8 @@ export interface Webcomic {
   Genere: string;
   Imatge: string;
   Descripcio: string;
+  Autor:string;
+  Puntuacion:number;
   Fav:boolean;
 
 }

@@ -6,7 +6,9 @@ export let WEBCOMIC: Webcomic[] = [
       "Titol": "Castle Swimmer",
       "Genere": "Drama",
       "Imatge": "Castle Swimmer/portada.png",
-      "Descripcio": "La descripcion",
+      "Autor": "Autor/a",
+      "Descripcio": "La descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcionLa descripcion",
+      "Puntuacion":5,
       "Fav": true
     },
     {
@@ -14,19 +16,25 @@ export let WEBCOMIC: Webcomic[] = [
       "Titol": "Castle Swimmer",
       "Genere": "Drama",
       "Imatge": "Castle Swimmer/portada.png",
+      "Autor": "Autor/a",
       "Descripcio": "La descripcion",
+      "Puntuacion":5,
       "Fav": true
     }, {
       "id": 3, "Titol": "Castle Swimmer",
       "Genere": "Drama",
       "Imatge": "Castle Swimmer/portada.png",
+    "Autor": "Autor/a",
       "Descripcio": "La descripcion",
+    "Puntuacion":5,
       "Fav": false
     }, {
       "id": 4, "Titol": "Castle Swimmer",
       "Genere": "Drama",
       "Imatge": "Castle Swimmer/portada.png",
+    "Autor": "Autor/a",
       "Descripcio": "La descripcion",
+    "Puntuacion":5,
       "Fav": false
     },
     {
@@ -34,13 +42,17 @@ export let WEBCOMIC: Webcomic[] = [
       "Titol": "Castle Swimmer",
       "Genere": "Drama",
       "Imatge": "Castle Swimmer/portada.png",
+      "Autor": "Autor/a",
       "Descripcio": "La descripcion",
+      "Puntuacion":5,
       "Fav": false
     }, {
       "id": 6, "Titol": "Castle Swimmer",
       "Genere": "Drama",
       "Imatge": "Castle Swimmer/portada.png",
+    "Autor": "Autor/a",
       "Descripcio": "La descripcion",
+    "Puntuacion":5,
       "Fav": false
     },
     {
@@ -49,6 +61,8 @@ export let WEBCOMIC: Webcomic[] = [
       "Genere": "Drama",
       "Imatge": "Nomads/portada.png",
       "Descripcio": "La descripcion",
+      "Autor": "Autor/a",
+      "Puntuacion":5,
       "Fav": true
     },
 
@@ -58,6 +72,8 @@ export let WEBCOMIC: Webcomic[] = [
       "Genere": "Drama",
       "Imatge": "Castle Swimmer/portada.png",
       "Descripcio": "La descripcion",
+      "Autor": "Autor/a",
+      "Puntuacion":5,
       "Fav": true
     }
   ]
