@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { filtrarPipe } from './filtrar-cerca.component';
 
 describe('filtrarPipe', () => {
   let component: filtrarPipe;

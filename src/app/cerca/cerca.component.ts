@@ -12,7 +12,9 @@ export class CercaComponent implements OnInit {
 
   generes: any;
 
-  cerca: string = '';
+  cercaTitol: string = '';
+  cercaAutor: string = '';
+  cercaGenere: string = 'Tots els gèneres';
 
   webcomics: Webcomic[] = [];
   //:any;
@@ -35,8 +37,14 @@ export class CercaComponent implements OnInit {
       return x.Genere;
     });
 
+    generes.push('Tots els gèneres');
     this.generes = new Set(generes);
 
+  }
+
+  filtrarGenere(event: Event): void{
+    this.cercaGenere = (event.target as HTMLInputElement).value;
+    console.log(this.cercaGenere);
   }
 
 }
