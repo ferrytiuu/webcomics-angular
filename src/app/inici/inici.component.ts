@@ -19,6 +19,7 @@ export class IniciComponent implements OnInit {
 
   webcomics: Webcomic[] =[];
   //webcomics:any;
+  webcomic: Webcomic;
   constructor(private WebcomicService: WebcomicServei,private router: Router,private route: ActivatedRoute,private modalService: NgbModal) {
   }
 
