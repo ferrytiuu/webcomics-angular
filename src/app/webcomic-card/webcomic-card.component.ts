@@ -25,11 +25,11 @@ export class WebcomicCardComponent implements OnInit {
   }
 
   abrirModal(id:number):void{
-    /*
+
     const modalRef = this.modalService.open(webcomicNgComponent,{size:'xl'});
     modalRef.componentInstance.name = 'World';
-    [modalRef.componentInstance.comic] = this.webcomics.filter(e => e.id == id);
-    modalRef.componentInstance.id = id;*/
+    modalRef.componentInstance.comic= this.webcomic;
+    modalRef.componentInstance.id = id;
   }
 
 
