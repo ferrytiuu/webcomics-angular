@@ -1,13 +1,20 @@
-<div class="modal-header">
+<div class="header">
   <h4 class="modal-title">{{comic.Titol}}</h4>
-  <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
-    <span aria-hidden="true">&times;</span>
-  </button>
+  <img src="../../assets/{{comic.Titol}}/portada.png">
 </div>
-<div class="modal-body">
-  <h5>Descripcio</h5>
-  <p>{{comic.Descripcio}}</p><br>
-</div>
-<div class="modal-footer">
-  <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>
+<div class="cos">
+  <div class="hola">
+    <span class="llista-capitols">Llista de capítols</span>
+    <div class="capitols" *ngFor="let nom of comic.Capitulos;index as i; first as isPrimer">
+      <a class="capitol">
+        <span class="capitol-nom">{{comic.Capitulos[i].nom}}</span>
+        <span class="captiol-posicio">{{comic.Capitulos[i].posicio}}</span>
+        <span class="capitol-data">{{comic.Capitulos[i].data}}</span>
+      </a>
+    </div>
+  </div>
+  <div class="descripcio">
+    <h5>Descripció</h5>
+    <p class="descripcio-cos">{{comic.Descripcio}}</p><br>
+  </div>
 </div>

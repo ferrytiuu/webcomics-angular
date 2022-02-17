@@ -7,6 +7,7 @@ import {ActivatedRoute, Router} from '@angular/router';
 @Component({
   selector: 'ngbd-modal-content',
   templateUrl: './webcomic-ng.component.html',
+  styleUrls: ['./webcomic-ng.component.css']
 })
 export class webcomicNgComponent implements OnInit{
   @Input() name:String;
