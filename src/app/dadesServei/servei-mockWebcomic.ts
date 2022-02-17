@@ -126,6 +126,11 @@ export let WEBCOMIC: Webcomic[] = [
         "nom": "Scars",
         "data": "Oct 10, 2021",
         "posicio": "#2"
+      },
+      {
+        "nom": "Creatures in the deep",
+        "data": "Oct 10, 2021",
+        "posicio": "#1"
       }
     ]
   },
