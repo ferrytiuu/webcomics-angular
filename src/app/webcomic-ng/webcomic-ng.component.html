@@ -5,16 +5,21 @@
 <div class="cos">
   <div class="hola">
     <span class="llista-capitols">Llista de capítols</span>
-    <div class="capitols" *ngFor="let nom of comic.Capitulos;index as i; first as isPrimer">
+    <div class="capitols" *ngFor="let cap of comic.Capitulos;">
       <a class="capitol">
-        <span class="capitol-nom">{{comic.Capitulos[i].nom}}</span>
-        <span class="captiol-posicio">{{comic.Capitulos[i].posicio}}</span>
-        <span class="capitol-data">{{comic.Capitulos[i].data}}</span>
+        <span class="capitol-nom">{{cap.nom}}</span>
+        <span class="captiol-posicio">{{cap.posicio}}</span>
+        <span class="capitol-data">{{cap.data}}</span>
       </a>
     </div>
   </div>
   <div class="descripcio">
     <h5>Descripció</h5>
-    <p class="descripcio-cos">{{comic.Descripcio}}</p><br>
+    <p class="descripcio-cos">{{comic.Descripcio}}</p>
+    <h5>Puntuacion</h5>
+    <ngb-rating [(rate)]="comic.Puntuacion" [readonly]="false"></ngb-rating>
+    <br><br>
+    <h5>Preview</h5><br>
+    <p class="descripcio-cos">review</p><br>
   </div>
 </div>
