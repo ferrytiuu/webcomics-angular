@@ -19,6 +19,7 @@ import { filtrarPipe } from './filtrar-cerca/filtrar-cerca.component';
 import { FormsModule } from '@angular/forms';
 import { WebcomicCardComponent } from './webcomic-card/webcomic-card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AnimacionsComponent } from './animacions/animacions.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     webcomicNgComponent,
     filtrarPipe,
     WebcomicCardComponent,
+    AnimacionsComponent,
   ],
   imports: [
     BrowserModule,

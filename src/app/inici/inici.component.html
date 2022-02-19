@@ -1,6 +1,6 @@
-<div>
+<div class="estat-inicial" [@apareixer]="state" >
     <div class="images-wrapper">
-        <div class="image-holder" *ngFor="let webcomic of webcomics;index as i; first as isPrimer">
+        <div class="image-holder" *ngFor="let webcomic of webcomics;index as i; first as isPrimer" >
           <app-webcomic-card [webcomic]="webcomic">
           </app-webcomic-card>
         </div>
