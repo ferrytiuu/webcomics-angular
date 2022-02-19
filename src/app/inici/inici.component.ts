@@ -6,6 +6,12 @@ import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { webcomicNgComponent } from '../webcomic-ng/webcomic-ng.component';
 import { trigger, state, style, transition, animate, keyframes } from "@angular/animations";
 
+import {LocalStorageService, SessionStorageService} from 'ngx-webstorage';
+
+
+
+
+
 
 @Component({
   selector: 'aplicacio',
@@ -36,11 +42,20 @@ export class IniciComponent implements OnInit {
   webcomics: Webcomic[] = [];
   //webcomics:any;
   webcomic: Webcomic;
-  constructor(private WebcomicService: WebcomicServei, private router: Router, private route: ActivatedRoute, private modalService: NgbModal) {
+  atribute:String;
+  constructor(private WebcomicService: WebcomicServei,
+              private router: Router,
+              private route: ActivatedRoute,
+              private modalService: NgbModal,
+              private localSt:LocalStorageService
+              ) {
   }
 
   ngOnInit() {
     this.obtenirWebcomic();
+
+    this.atribute = this.localSt.retrieve('PUNTUACION');
+    console.log(this.atribute);
   }
 
   obtenirWebcomic(): void {

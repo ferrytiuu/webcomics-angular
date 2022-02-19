@@ -9,7 +9,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Autor": "Shuichi Shigeno",
     "Descripcio": "Unlike his friends, Takumi Fujiwara is not particularly interested in cars, with little to no knowledge about the world of car enthusiasts and street racers. The son of a tofu shop owner, he is tasked to deliver tofu every morning without fail, driving along the mountain of Akina. Thus, conversations regarding cars or driving in general would only remind Takumi of the tiring daily routine forced upon him. ",
     "Puntuacion": 5,
-    "Fav": true,
+    "Fav": false,
     "Capitulos": [
       {
         "nom": "Chapter 26 - The New Downhill Legend!",
@@ -151,7 +151,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Autor": "Tatsuki Fujimoto",
     "Descripcio": "Denji has a simple dream—to live a happy and peaceful life, spending time with a girl he likes. This is a far cry from reality, however, as Denji is forced by the yakuza into killing devils in order to pay off his crushing debts. Using his pet devil Pochita as a weapon, he is ready to do anything for a bit of cash.",
     "Puntuacion": 5,
-    "Fav": true,
+    "Fav": false,
     "Capitulos": [
       {
         "nom": "Volume 11 - I, Love, Chainsaw",
@@ -648,7 +648,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Autor": "One",
     "Descripcio": "Eighth-grader Shigeo 'Mob' Kageyama has tapped into his inner wellspring of psychic prowess at a young age. But the power quickly proves to be a liability when he realizes the potential danger in his skills. Choosing to suppress his power, Mob's only present use for his ability is to impress his longtime crush, Tsubomi, who soon grows bored of the same tricks.",
     "Puntuacion": 5,
-    "Fav": true,
+    "Fav": false,
     "Capitulos": [
       {
         "nom": "Volume 8 - Voice",
@@ -990,7 +990,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Autor": "Nymtea",
     "Descripcio": "On a school trip, a girl named Finley has a chance encounter with one of the creatures of the deep",
     "Puntuacion": 5,
-    "Fav": true,
+    "Fav": false,
     "Capitulos": [
       {
         "nom": "11.",
@@ -1057,7 +1057,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Autor": "Wendy Lian Martin",
     "Descripcio": "What happens when your entire life is ruled by a prophecy – your future foretold by people you’ve never met, who died long before you were born.  Such is the story of two young sea creatures.  One believed to be a guiding light for his people, a Beacon who will lead them to a bright, prosperous future.  The other is a teenage prince for who’s destiny is to KILL the Beacon so that HIS own people might thrive.  When both reject the course set for them, it leads to a raucous adventure as big and unpredictable as the ocean itself – and a romance that nobody could have predicted.",
     "Puntuacion": 5,
-    "Fav": true,
+    "Fav": false,
     "Capitulos": [
       {
         "nom": "(S2) Episode 123",
@@ -1730,7 +1730,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Autor": "Zerowater/UMKY",
     "Descripcio": "A dungeon-guiding gig goes sideways for explorer Stetch Atelier when the prince who hired him tricks him into activating a fatal curse. But instead of staying dead, Stetch is resurrected by a sentient artifact that offers him a deal that may help him get his revenge. To hold up his end of the bargain, Stetch sets off on a long journey of raiding dungeons, slaying monsters, and making new enemies and friends along the way.",
     "Puntuacion": 5,
-    "Fav": true,
+    "Fav": false,
     "Capitulos": [
       {
         "nom": "Ep. 47 - Spiratus",
@@ -1977,7 +1977,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Autor": "Noemi",
     "Descripcio": "Florence’s obsession with becoming an influencer leads him to ever more dangerous acts. The last one cost him his life, but not even death can stop him. With a little help from a more experienced ghost to guide him through his new unmaterial condition, Florence is determined more than ever to accomplish his dreams. After all, death is just another form of existence.\n(Updates monthly)\nWarnings: series will contain depictions of death and mental health.",
     "Puntuacion": 5,
-    "Fav": true,
+    "Fav": false,
     "Capitulos": [
       {
         "nom": "Chapter 1.3 - Basic course for ghosts",
@@ -2010,10 +2010,10 @@ export let WEBCOMIC: Webcomic[] = [
     "Autor": "athena.tea",
     "Descripcio": "Sunflower, a Coocoo bird raised by a family of Warblers, has always longed for a place where she belongs. Upon leaving the nest, her birth family comes to claim her as the heir to East Side Coocoos, the greatest bird mafia in the city.",
     "Puntuacion": 5,
-    "Fav": true,
+    "Fav": false,
     "Capitulos": [
       {
-        "nom": "Chapter 5- Her True Family (Part 1)",
+        "nom": "Chapter 5- Her false Family (Part 1)",
         "data": "Feb 4, 2022",
         "posicio": "#14"
       },
@@ -2072,7 +2072,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Autor": "JJJ/KIM KYOUNG-YEOL",
     "Descripcio": "Seongwu is a former special forces soldier who has returned to college after completing his national service. His ordinary life as a student is shattered during class one day when he and his fellow students are faced with a mysterious prompt asking them to “select a role.” Seongwu chooses the necromancer, a rare ability that grants him the power to control the undead. With the campus and outside world seemingly on the brink of collapse, Seongwu must use his newfound powers to battle fearsome monsters and help save his fellow students. But will they make it out alive?",
     "Puntuacion": 5,
-    "Fav": true,
+    "Fav": false,
     "Capitulos": [
       {
         "nom": "Ep. 10 - The Orc Unit Hunting the Survivors (4)",
@@ -2134,7 +2134,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Autor": "Captain Juuter",
     "Descripcio": "In a world where only special people known as Nomads are allowed to travel, Lance sets out with one goal in mind: to find his missing brother. However, his journey takes an unexpected turn when he meets Satra, a wannabe Nomad with a hidden past, and Saber, a cat with mysterious powers. What starts off as great company soon turns into more than he bargained for when wanted posters start popping up… and he’s being chased by bounty hunters?!",
     "Puntuacion": 5,
-    "Fav": true,
+    "Fav": false,
     "Capitulos": [
       {
         "nom": "Episode 24",
@@ -2266,7 +2266,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Autor": "Jetaix",
     "Descripcio": "In an attempt to contact ghosts, Lucas misuses an Ouija board and gets into trouble. Now Foster must protect Lucas from the evil spirits that wish him harm.",
     "Puntuacion": 5,
-    "Fav": true,
+    "Fav": false,
     "Capitulos": [
       {
         "nom": "CH 1 Page 36-41",
@@ -2318,7 +2318,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Autor": "Purpah",
     "Descripcio": "Lady-in-waiting, Lucia believes getting through the royal wedding will be the toughest part of her new life. That is until she finds herself falling head over heels with Modeus, an up-and-coming knight to the king's guard. With her newfound interest, she is quickly awakened to the mysteries of the kingdom when she learns Modeus is in fact an enchanted suit of armor without a soul. Could there be more to him than just shining armor?",
     "Puntuacion": 5,
-    "Fav": true,
+    "Fav": false,
     "Capitulos": [
       {
         "nom": "Episode 55",

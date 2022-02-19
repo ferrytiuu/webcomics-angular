@@ -21,6 +21,10 @@ import { WebcomicCardComponent } from './webcomic-card/webcomic-card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AnimacionsComponent } from './animacions/animacions.component';
 
+import {NgxWebstorageModule} from 'ngx-webstorage';
+import {NgxIndexedDBModule} from "ngx-indexed-db";
+import {CONFIG} from "../DB/db";
+
 
 @NgModule({
   declarations: [
@@ -42,6 +46,8 @@ import { AnimacionsComponent } from './animacions/animacions.component';
     RouterModule,
     AppRoutingModule,
     FormsModule,
+    NgxWebstorageModule.forRoot(),
+    NgxIndexedDBModule.forRoot(CONFIG),
     BrowserAnimationsModule
 
   ],

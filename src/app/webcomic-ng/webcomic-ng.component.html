@@ -22,9 +22,12 @@
     </div>
     <h5>Descripció</h5>
     <p class="descripcio-cos">{{comic.Descripcio}}</p>
-    <h5>Puntuació</h5>
-    <ngb-rating [(rate)]="comic.Puntuacion" [readonly]="false"></ngb-rating>
-    <h5>Preview</h5>
     <p>review</p>
+    <h5>Puntuacion</h5>
+    <ngb-rating (leave)="updateWebStorage(comic.id,comic.Puntuacion)"  [(rate)]="comic.Puntuacion" [readonly]="false" ></ngb-rating>
+    <br><br>
+    <button (click)="updateIndexeddb(comic.id,comic.Fav) ">mostrar efecte</button>
+    <h5>Preview</h5><br>
+    <p class="descripcio-cos">review</p><br>
   </div>
 </div>
