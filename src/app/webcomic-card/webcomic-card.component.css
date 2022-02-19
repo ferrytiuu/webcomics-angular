@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+
 .images-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 .image-holder {
@@ -13,7 +16,7 @@
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
   height: 40rem;
 
 }
@@ -27,10 +30,14 @@
 img {
   height: 28rem;
   width: 18.6rem;
-  margin-bottom: 1rem;
 }
 
 h1{
   font-size: 2rem;
   height: 5rem;
+}
+
+.text-comic{
+  padding-top: 1rem;
+  background-color: white;
 }

@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
 
 
-h4 {
-    color: blue;
-    text-align: center
+h4{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 
 img {
     height: 160px;
@@ -19,7 +23,7 @@ img {
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-areas:
-    "hola descricio";
+    "hola descripcio";
 }
 
 .capitols {
@@ -46,6 +50,7 @@ img {
     color: black;
     line-height: 60px;
     display: block;
+    
 }
 
 .capitol-nom {
@@ -64,7 +69,7 @@ img {
 }
 
 .capitols:hover {
-    background-color: #fbfbfb;
+    background-color: #e4e4e4;
 }
 
 .descripcio {
@@ -77,8 +82,11 @@ img {
     display:inline-block;
 }
 
-.descripcio>h5 {
+h5 {
     text-align: center;
     font-weight: bold;
-    margin-bottom: 10px;
+}
+
+h5:not(:first-child) {
+    margin-top: 30px;
 }

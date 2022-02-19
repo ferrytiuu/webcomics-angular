@@ -14,12 +14,17 @@
     </div>
   </div>
   <div class="descripcio">
+    <div class="informacio">
+      <ul><h5>Informació</h5>
+        <li><b>Gènere: </b>{{comic.Genere}}</li>
+        <li><b>Autor/a: </b>{{comic.Autor}}</li>
+      </ul>
+    </div>
     <h5>Descripció</h5>
     <p class="descripcio-cos">{{comic.Descripcio}}</p>
-    <h5>Puntuacion</h5>
+    <h5>Puntuació</h5>
     <ngb-rating [(rate)]="comic.Puntuacion" [readonly]="false"></ngb-rating>
-    <br><br>
-    <h5>Preview</h5><br>
-    <p class="descripcio-cos">review</p><br>
+    <h5>Preview</h5>
+    <p>review</p>
   </div>
 </div>

@@ -7,9 +7,8 @@
   display: grid;
   grid-template-columns: 500px 500px 100px;
   grid-column-gap: 5px;
+  
 }
-
-
 
 #row {
   display: inline-block;
@@ -19,10 +18,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 .image-holder {
   padding: 0.625rem;
-
 }
 

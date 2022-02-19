@@ -7,19 +7,139 @@ export let WEBCOMIC: Webcomic[] = [
     "Genere": "Curses",
     "Imatge": "Initial D/portada.png",
     "Autor": "Shuichi Shigeno",
-    "Descripcio": "Initial D cuenta la historia de Takumi Fujiwara, un estudiante de bachiller de 18 años de edad, que trabaja en una gasolinera con sus dos amigos: Itsuki (Compañero de clase que no cesa de hablar a Takumi de su pasión por los coches y de sus modelos preferidos) e Iketani (Algo mayor que ellos y líder del equipo local de corredores callejeros: Los Akina Speedstars) Takumi, a los ojos de sus amigos, no tiene la más mínima idea de coches ni tampoco el más mínimo interés. ",
+    "Descripcio": "Unlike his friends, Takumi Fujiwara is not particularly interested in cars, with little to no knowledge about the world of car enthusiasts and street racers. The son of a tofu shop owner, he is tasked to deliver tofu every morning without fail, driving along the mountain of Akina. Thus, conversations regarding cars or driving in general would only remind Takumi of the tiring daily routine forced upon him. ",
     "Puntuacion": 5,
     "Fav": true,
     "Capitulos": [
       {
-        "nom": "11.",
-        "data": "Jan 25, 2022",
-        "posicio": "#11"
+        "nom": "Chapter 26 - The New Downhill Legend!",
+        "data": "Dec 5, 1998",
+        "posicio": "#26"
       },
       {
-        "nom": "10.",
-        "data": "Jan 1, 2022",
+        "nom": "Chapter 25 - The Play-Offs! Last Battle",
+        "data": "Nov 28, 1998",
+        "posicio": "#25"
+      },
+      {
+        "nom": "Chapter 24 - Akagi's White Comet!",
+        "data": "Nov 14, 1998",
+        "posicio": "#24"
+      },
+      {
+        "nom": "Chapter 23 - The Rainy Downhill Battle!",
+        "data": "Nov 7, 1998",
+        "posicio": "#23"
+      },
+      {
+        "nom": "Chapter 22 - Fierce Battle! Hill Climb",
+        "data": "Oct 24, 1998",
+        "posicio": "#22"
+      },
+      {
+        "nom": "Chapter 21 - Challenge From a Superstar",
+        "data": "Oct 17, 1998",
+        "posicio": "#21"
+      },
+      {
+        "nom": "Chapter 20 - The End of Summer",
+        "data": "Oct 1, 1998",
+        "posicio": "#20"
+      },
+      {
+        "nom": "Chapter 19 - Settlement! Super Drift",
+        "data": "Sep 26, 1998",
+        "posicio": "#19"
+      },
+      {
+        "nom": "Chapter 18 - Hot Winds! Mad Driving! Usui Pass",
+        "data": "Sep 19, 1998",
         "posicio": "#10"
+      },
+      {
+        "nom": "Chapter 17 - Sudden-Death Death Match",
+        "data": "Sep 12, 1998",
+        "posicio": "#17"
+      },
+      {
+        "nom": "Chapter 16 - The Angel of Usui Pass",
+        "data": "Aug 19, 1998",
+        "posicio": "#16"
+      },
+      {
+        "nom": "Chapter 15 - Takumi: Rushing Waves of Anger!",
+        "data": "Aug 22, 1998",
+        "posicio": "#15"
+      },
+      {
+        "nom": "Chapter 14 - Evolving Drift Genius!",
+        "data": "Aug 15, 1998",
+        "posicio": "#14"
+      },
+      {
+        "nom": "Chapter 13 - Itsuki's First Date",
+        "data": "Aug 8, 1998",
+        "posicio": "#13"
+      },
+      {
+        "nom": "Chapter 12 - The FR-Killing Deathmatch!",
+        "data": "Aug 1, 1998",
+        "posicio": "#12"
+      },
+      {
+        "nom": "Chapter 11 - The Dangerous Shingo Appears!",
+        "data": "Jul 11, 1998",
+        "posicio": "#1"
+      },
+      {
+        "nom": "Chapter 10 - Explosion! 5-Point Hairpin",
+        "data": "Jul 4, 1998",
+        "posicio": "#10"
+      },
+      {
+        "nom": "Chapter 9 - Battle to the Limit!",
+        "data": "Jun 27, 1998",
+        "posicio": "#9"
+      },
+      {
+        "nom": "Chapter 8 - It's Almost Time Up!",
+        "data": "Jun 20, 1998",
+        "posicio": "#8"
+      },
+      {
+        "nom": "Chapter 7 - A Racer's Pride",
+        "data": "Jun 13, 1998",
+        "posicio": "#10"
+      },
+      {
+        "nom": "Chapter 6 - A New Challenger",
+        "data": "May 23, 1998",
+        "posicio": "#6"
+      },
+      {
+        "nom": "Chapter 5 - Denouement! Dogfight!",
+        "data": "May 16, 1998",
+        "posicio": "#5"
+      },
+      {
+        "nom": "Chapter 4 - Rushing Into the Flow of Battle!",
+        "data": "May 9, 1998",
+        "posicio": "#4"
+      },
+      {
+        "nom": "Chapter 3 - The Downhill Specialist Appears",
+        "data": "May 2, 1998",
+        "posicio": "#3"
+      },
+      {
+        "nom": "Chapter 2 - Revenge Declaration! Burning Turbo",
+        "data": "Apr 25, 1998",
+        "posicio": "#2"
+      },
+      {
+        "nom": "Chapter 1 - The Ultimate Tofu Store Drift!",
+        "data": "Apr 18, 1998",
+        "posicio": "#1"
       },
     ]
   },
@@ -29,19 +149,494 @@ export let WEBCOMIC: Webcomic[] = [
     "Genere": "Acció",
     "Imatge": "Chainsaw Man/portada.png",
     "Autor": "Tatsuki Fujimoto",
-    "Descripcio": "La descripcion",
+    "Descripcio": "Denji has a simple dream—to live a happy and peaceful life, spending time with a girl he likes. This is a far cry from reality, however, as Denji is forced by the yakuza into killing devils in order to pay off his crushing debts. Using his pet devil Pochita as a weapon, he is ready to do anything for a bit of cash.",
     "Puntuacion": 5,
     "Fav": true,
     "Capitulos": [
       {
-        "nom": "11.",
-        "data": "Jan 25, 2022",
+        "nom": "Volume 11 - I, Love, Chainsaw",
+        "data": "Mar 4, 2021",
+        "posicio": "#97"
+      },
+      {
+        "nom": "Volume 11 - This Kind of Taste",
+        "data": "Mar 4, 2021",
+        "posicio": "#96"
+      },
+      {
+        "nom": "Volume 11 - Chainsaw Man vs. Control Devil",
+        "data": "Mar 4, 2021",
+        "posicio": "#95"
+      },
+      {
+        "nom": "Volume 11 - Chainsaw Man vs. the Weapon Humans",
+        "data": "Mar 4, 2021",
+        "posicio": "#94"
+      },
+      {
+        "nom": "Volume 11 - You & Crappy Movies",
+        "data": "Mar 4, 2021",
+        "posicio": "#93"
+      },
+      {
+        "nom": "Volume 11 - Zombie, Blood, Chainsaw",
+        "data": "Mar 4, 2021",
+        "posicio": "#92"
+      },
+      {
+        "nom": "Volume 11 - Power, Power, Power",
+        "data": "Mar 4, 2021",
+        "posicio": "#91"
+      },
+      {
+        "nom": "Volume 11 - Super Power",
+        "data": "Mar 4, 2021",
+        "posicio": "#90"
+      },
+      {
+        "nom": "Volume 11 - Go Get 'Em, Chainsaw Man",
+        "data": "Mar 4, 2021",
+        "posicio": "#89"
+      },
+      {
+        "nom": "Volume 10 - Star Chainsaw",
+        "data": "Jan 4, 2021",
+        "posicio": "#88"
+      },
+      {
+        "nom": "Volume 10 - Chainsaw Man Vs. the Horrifying Weapon Humans",
+        "data": "Jan 4, 2021",
+        "posicio": "#87"
+      },
+      {
+        "nom": "Volume 10 - Date Chainsaw",
+        "data": "Jan 4, 2021",
+        "posicio": "#86"
+      },
+      {
+        "nom": "Volume 10 - Bloody Good Gut Feeling",
+        "data": "Jan 4, 2021",
+        "posicio": "#85"
+      },
+      {
+        "nom": "Volume 10 - Hero of Hell",
+        "data": "Jan 4, 2021",
+        "posicio": "#84"
+      },
+      {
+        "nom": "Volume 10 - Death, Resurrection, Chainsaw",
+        "data": "Jan 4, 2021",
+        "posicio": "#83"
+      },
+      {
+        "nom": "Volume 10 - Always Eat a Hearty Breakfast",
+        "data": "Jan 4, 2021",
+        "posicio": "#82"
+      },
+      {
+        "nom": "Volume 10 - Paw",
+        "data": "Jan 4, 2021",
+        "posicio": "#81"
+      },
+      {
+        "nom": "Volume 10 - A Dog's Feelings",
+        "data": "Jan 4, 2021",
+        "posicio": "#80"
+      },
+      {
+        "nom": "Volume 9 - Play Catch",
+        "data": "Nov 4, 2020",
+        "posicio": "#79"
+      },
+      {
+        "nom": "Volume 9 - Snowball Fight",
+        "data": "Nov 4, 2020",
+        "posicio": "#78"
+      },
+      {
+        "nom": "Volume 9 - Ring Ring Ring",
+        "data": "Nov 4, 2020",
+        "posicio": "#77"
+      },
+      {
+        "nom": "Volume 9 - Don't Open It",
+        "data": "Nov 4, 2020",
+        "posicio": "#76"
+      },
+      {
+        "nom": "Volume 9 - 9, 12",
+        "data": "Nov 4, 2020",
+        "posicio": "#75"
+      },
+      {
+        "nom": "Volume 9 - What the Waves Say",
+        "data": "Nov 4, 2020",
+        "posicio": "#74"
+      },
+      {
+        "nom": "Volume 9 - Everyday Life No More",
+        "data": "Nov 4, 2020",
+        "posicio": "#73"
+      },
+      {
+        "nom": "Volume 9 - All Together",
+        "data": "Nov 4, 2020",
+        "posicio": "#72"
+      },
+      {
+        "nom": "Volume 9 - Bath",
+        "data": "Nov 4, 2020",
+        "posicio": "#71"
+      },
+      {
+        "nom": "Volume 8 - Pinch",
+        "data": "Aug 9, 2020",
+        "posicio": "#70"
+      },
+      {
+        "nom": "Volume 8 - Shining Power",
+        "data": "Aug 9, 2020",
+        "posicio": "#69"
+      },
+      {
+        "nom": "Volume 8 - Dark Power",
+        "data": "Aug 9, 2020",
+        "posicio": "#68"
+      },
+      {
+        "nom": "Volume 8 - The First Devil Hunter",
+        "data": "Aug 9, 2020",
+        "posicio": "#67"
+      },
+      {
+        "nom": "Volume 8 - Woof!",
+        "data": "Aug 9, 2020",
+        "posicio": "#66"
+      },
+      {
+        "nom": "Volume 8 - The Darkness Devil",
+        "data": "Aug 9, 2020",
+        "posicio": "#65"
+      },
+      {
+        "nom": "Volume 8 - Welcome to Hell",
+        "data": "Aug 9, 2020",
+        "posicio": "#64"
+      },
+      {
+        "nom": "Volume 8 - Trip to Hell",
+        "data": "Aug 9, 2020",
+        "posicio": "#63"
+      },
+      {
+        "nom": "Volume 8 - Super Mess",
+        "data": "Aug 9, 2020",
+        "posicio": "#62"
+      },
+      {
+        "nom": "Volume 7 - News Reporter",
+        "data": "Jun 4, 2020",
+        "posicio": "#61"
+      },
+      {
+        "nom": "Volume 7 - Quanxi and the Fiends' 49-Person Massacre",
+        "data": "Jun 4, 2020",
+        "posicio": "#60"
+      },
+      {
+        "nom": "Volume 7 - Mess",
+        "data": "Jun 4, 2020",
+        "posicio": "#59"
+      },
+      {
+        "nom": "Volume 7 - Kurose Yutaro",
+        "data": "Jun 4, 2020",
+        "posicio": "#58"
+      },
+      {
+        "nom": "Volume 7 - Suddenly",
+        "data": "Jun 4, 2020",
+        "posicio": "#57"
+      },
+      {
+        "nom": "Volume 7 - A Curse and a First",
+        "data": "Jun 4, 2020",
+        "posicio": "#56"
+      },
+      {
+        "nom": "Volume 7 - Let's Go",
+        "data": "Jun 4, 2020",
+        "posicio": "#55"
+      },
+      {
+        "nom": "Volume 7 - To Go to Enoshima",
+        "data": "Jun 4, 2020",
+        "posicio": "#54"
+      },
+      {
+        "nom": "Volume 7 - In a Dream",
+        "data": "Jun 4, 2020",
+        "posicio": "#53"
+      },
+      {
+        "nom": "Volume 6 - Lost Love, Flower, Chainsaw",
+        "data": "Mar 4, 2020",
+        "posicio": "#52"
+      },
+      {
+        "nom": "Volume 6 - Dark Diving",
+        "data": "Mar 4, 2020",
+        "posicio": "#51"
+      },
+      {
+        "nom": "Volume 6 - Sharknado ",
+        "data": "Mar 4, 2020",
+        "posicio": "#50"
+      },
+      {
+        "nom": "Volume 6 - Shark Hurricane",
+        "data": "Mar 4, 2020",
+        "posicio": "#49"
+      },
+      {
+        "nom": "Volume 6 - Kaboom Kaboom Kaboom",
+        "data": "Mar 4, 2020",
+        "posicio": "48"
+      },
+      {
+        "nom": "Volume 6 - Luck with Women",
+        "data": "Mar 4, 2020",
+        "posicio": "#47"
+      },
+      {
+        "nom": "Volume 6 - Massacre Melody",
+        "data": "Mar 4, 2020",
+        "posicio": "#46"
+      },
+      {
+        "nom": "Volume 6 -A Fine Day for Explosions ",
+        "data": "Mar 4, 2020",
+        "posicio": "#45"
+      },
+      {
+        "nom": "Volume 6 - Boom Boom Boom",
+        "data": "Mar 4, 2020",
+        "posicio": "#44"
+      },
+      {
+        "nom": "Volume 5 - Jane Fell Asleep in the Church",
+        "data": "Jan 4, 2020",
+        "posicio": "#43"
+      },
+      {
+        "nom": "Volume 5 - Teach Me How to Swim",
+        "data": "Jan 4, 2020",
+        "posicio": "#42"
+      },
+      {
+        "nom": "Volume 5 - Before the Storm",
+        "data": "Jan 4, 2020",
+        "posicio": "#41"
+      },
+      {
+        "nom": "Volume 5 - Love, Flower, Chainsaw",
+        "data": "Jan 4, 2020",
+        "posicio": "#40"
+      },
+      {
+        "nom": "Volume 5 - Tearjerker",
+        "data": "Jan 4, 2020",
+        "posicio": "#39"
+      },
+      {
+        "nom": "Volume 5 - Easy Revenge!",
+        "data": "Jan 4, 2020",
+        "posicio": "#38"
+      },
+      {
+        "nom": "Volume 5 - Train, Head, Chainsaw",
+        "data": "Jan 4, 2020",
+        "posicio": "#37"
+      },
+      {
+        "nom": "Volume 5 - Katana vs Chainsaw",
+        "data": "Jan 4, 2020",
+        "posicio": "#36"
+      },
+      {
+        "nom": "Volume 5 - Minor",
+        "data": "Jan 4, 2020",
+        "posicio": "#35"
+      },
+      {
+        "nom": "Volume 4 - Full Team",
+        "data": "Oct 4, 2019",
+        "posicio": "#34"
+      },
+      {
+        "nom": "Volume 4 - Mission Start",
+        "data": "Oct 4, 2019",
+        "posicio": "#33"
+      },
+      {
+        "nom": "Volume 4 - Over and Over Again",
+        "data": "Oct 4, 2019",
+        "posicio": "#32"
+      },
+      {
+        "nom": "Volume 4 - The Future Rules",
+        "data": "Oct 4, 2019",
+        "posicio": "#31"
+      },
+      {
+        "nom": "Volume 4 - Bruised & Battered",
+        "data": "Oct 4, 2019",
+        "posicio": "#30"
+      },
+      {
+        "nom": "Volume 4 - Perfect Score",
+        "data": "Oct 4, 2019",
+        "posicio": "#29"
+      },
+      {
+        "nom": "Volume 4 - Secrets & Lies",
+        "data": "Oct 4, 2019",
+        "posicio": "#28"
+      },
+      {
+        "nom": "Volume 4 - From Kyoto",
+        "data": "Oct 4, 2019",
+        "posicio": "#27"
+      },
+      {
+        "nom": "Volume 4 - The Gun is Mightier",
+        "data": "Oct 4, 2019",
+        "posicio": "#26"
+      },
+      {
+        "nom": "Volume 3 - Ghost, Snake, Chainsaw",
+        "data": "Aug 2, 2019",
+        "posicio": "#25"
+      },
+      {
+        "nom": "Volume 3 - Curse",
+        "data": "Aug 2, 2019",
+        "posicio": "#24"
+      },
+      {
+        "nom": "Volume 3 - Gunfire",
+        "data": "Aug 2, 2019",
+        "posicio": "#23"
+      },
+      {
+        "nom": "Volume 3 - Cola-Flavor Chupa Chups",
+        "data": "Aug 2, 2019",
+        "posicio": "#22"
+      },
+      {
+        "nom": "Volume 3 - Taste of a Kiss",
+        "data": "Aug 2, 2019",
+        "posicio": "#21"
+      },
+      {
+        "nom": "Volume 3 - Drinking",
+        "data": "Aug 2, 2019",
+        "posicio": "#20"
+      },
+      {
+        "nom": "Volume 3 - Nobel Prize",
+        "data": "Aug 2, 2019",
+        "posicio": "#19"
+      },
+      {
+        "nom": "Volume 3 - Chainsaw vs Eternity",
+        "data": "Aug 2, 2019",
+        "posicio": "#18"
+      },
+      {
+        "nom": "Volume 3 - Kill Denji",
+        "data": "Aug 2, 2019",
+        "posicio": "#17"
+      },
+      {
+        "nom": "Volume 2 - The First Taste",
+        "data": "May 2, 2019",
+        "posicio": "#16"
+      },
+      {
+        "nom": "Volume 2 - Endless 8th Floor",
+        "data": "May 2, 2019",
+        "posicio": "#15"
+      },
+      {
+        "nom": "Volume 2 - French Kiss",
+        "data": "May 2, 2019",
+        "posicio": "#14"
+      },
+      {
+        "nom": "Volume 2 - Gun Devil",
+        "data": "May 2, 2019",
+        "posicio": "#13"
+      },
+      {
+        "nom": "Volume 2 - Squeeze",
+        "data": "May 2, 2019",
+        "posicio": "#12"
+      },
+      {
+        "nom": "Volume 2 - Squeeze",
+        "data": "May 2, 2019",
         "posicio": "#11"
       },
       {
-        "nom": "10.",
-        "data": "Jan 1, 2022",
+        "nom": "Volume 2 - Kon",
+        "data": "May 2, 2019",
         "posicio": "#10"
+      },
+      {
+        "nom": "Volume 2 - Rescue",
+        "data": "May 2, 2019",
+        "posicio": "#9"
+      },
+      {
+        "nom": "Volume 2 - Chainsaw vs. Bat",
+        "data": "May 2, 2019",
+        "posicio": "#8"
+      },
+      {
+        "nom": "Volume 1 - Meowy's Whereabouts",
+        "data": "Mar 4, 2019",
+        "posicio": "#7"
+      },
+      {
+        "nom": "Volume 1 - Service",
+        "data": "Mar 4, 2019",
+        "posicio": "#6"
+      },
+      {
+        "nom": "Volume 1 - A Way to Touch Some Boobs",
+        "data": "Mar 4, 2019",
+        "posicio": "#5"
+      },
+      {
+        "nom": "Volume 1 - Power",
+        "data": "Mar 4, 2019",
+        "posicio": "#4"
+      },
+      {
+        "nom": "Volume 1 - Arrival in Tokyo",
+        "data": "Mar 4, 2019",
+        "posicio": "#3"
+      },
+      {
+        "nom": "Volume 1 - The Place Where Pochita Is",
+        "data": "Mar 4, 2019",
+        "posicio": "#2"
+      },
+      {
+        "nom": "Volume 1 - Dog & Chainsaw",
+        "data": "Mar 4, 2019",
+        "posicio": "#1"
       },
     ]
   },
@@ -51,19 +646,339 @@ export let WEBCOMIC: Webcomic[] = [
     "Genere": "Acció",
     "Imatge": "Mob Psycho 100/portada.png",
     "Autor": "One",
-    "Descripcio": "La descripcion",
+    "Descripcio": "Eighth-grader Shigeo 'Mob' Kageyama has tapped into his inner wellspring of psychic prowess at a young age. But the power quickly proves to be a liability when he realizes the potential danger in his skills. Choosing to suppress his power, Mob's only present use for his ability is to impress his longtime crush, Tsubomi, who soon grows bored of the same tricks.",
     "Puntuacion": 5,
     "Fav": true,
     "Capitulos": [
       {
-        "nom": "11.",
-        "data": "Jan 25, 2022",
+        "nom": "Volume 8 - Voice",
+        "data": "Oct 17, 2014",
+        "posicio": "#66"
+      },
+      {
+        "nom": "Volume 8 - Friction",
+        "data": "Oct 17, 2014",
+        "posicio": "#65"
+      },
+      {
+        "nom": "Volume 8 - World",
+        "data": "Oct 17, 2014",
+        "posicio": "#64"
+      },
+      {
+        "nom": "Volume 8 - Last Resort",
+        "data": "Oct 17, 2014",
+        "posicio": "#63"
+      },
+      {
+        "nom": "Volume 8 - Morphing",
+        "data": "Oct 17, 2014",
+        "posicio": "#62"
+      },
+      {
+        "nom": "Volume 8 - Evil Spirit",
+        "data": "Oct 17, 2014",
+        "posicio": "#61"
+      },
+      {
+        "nom": "Volume 7 - True Identity",
+        "data": "Jul 18, 2014",
+        "posicio": "#60"
+      },
+      {
+        "nom": "Volume 7 - Big Mouth",
+        "data": "Jul 18, 2014",
+        "posicio": "#59"
+      },
+      {
+        "nom": "Volume 7 - Creeping Danger",
+        "data": "Jul 18, 2014",
+        "posicio": "#58"
+      },
+      {
+        "nom": "Volume 7 - Roots",
+        "data": "Jul 18, 2014",
+        "posicio": "#57"
+      },
+      {
+        "nom": "Volume 7 - Solo Mission",
+        "data": "Jul 18, 2014",
+        "posicio": "#56"
+      },
+      {
+        "nom": "Volume 7 - Don't Know",
+        "data": "Jul 18, 2014",
+        "posicio": "#55"
+      },
+      {
+        "nom": "Volume 7 - Encounter with a Myth",
+        "data": "Jul 18, 2014",
+        "posicio": "#54"
+      },
+      {
+        "nom": "Volume 7 - Urban Legend",
+        "data": "Jul 18, 2014",
+        "posicio": "#53"
+      },
+      {
+        "nom": "Volume 6 - Biri Biri",
+        "data": "May 16, 2014",
+        "posicio": "#52"
+      },
+      {
+        "nom": "Volume 6 - Someone is Watching",
+        "data": "May 16, 2014",
+        "posicio": "#51"
+      },
+      {
+        "nom": "Volume 6 - No Changes",
+        "data": "May 16, 2014",
+        "posicio": "#50"
+      },
+      {
+        "nom": "Volume 6 - Putting An End",
+        "data": "May 16, 2014",
+        "posicio": "#49"
+      },
+      {
+        "nom": "Volume 6 - Overwhelming",
+        "data": "May 16, 2014",
+        "posicio": "#48"
+      },
+      {
+        "nom": "Volume 6 - Rental",
+        "data": "May 16, 2014",
+        "posicio": "#47"
+      },
+      {
+        "nom": "Volume 6 - Master",
+        "data": "May 16, 2014",
+        "posicio": "#46"
+      },
+      {
+        "nom": "Volume 6 - Leader",
+        "data": "May 16, 2014",
+        "posicio": "#45"
+      },
+      {
+        "nom": "Volume 6 - Respect",
+        "data": "May 16, 2014",
+        "posicio": "#44"
+      },
+      {
+        "nom": "Volume 5 - Evil Aura",
+        "data": "Dec 18, 2013",
+        "posicio": "#43"
+      },
+      {
+        "nom": "Volume 5 - Phone Call",
+        "data": "Dec 18, 2013",
+        "posicio": "#42"
+      },
+      {
+        "nom": "Volume 5 - Who",
+        "data": "Dec 18, 2013",
+        "posicio": "#41"
+      },
+      {
+        "nom": "Volume 5 - Pyrokinetic",
+        "data": "Dec 18, 2013",
+        "posicio": "#40"
+      },
+      {
+        "nom": "Volume 5 - The Awakened",
+        "data": "Dec 18, 2013",
+        "posicio": "#39"
+      },
+      {
+        "nom": "Volume 5 - No Time to Play Around",
+        "data": "Dec 18, 2013",
+        "posicio": "#38"
+      },
+      {
+        "nom": "Volume 5 - Team",
+        "data": "Dec 18, 2013",
+        "posicio": "37"
+      },
+      {
+        "nom": "Volume 5 - Ways of Usage",
+        "data": "Dec 18, 2013",
+        "posicio": "#36"
+      },
+      {
+        "nom": "Volume 5 - Up Up",
+        "data": "Dec 18, 2013",
+        "posicio": "#35"
+      },
+      {
+        "nom": "Volume 4 - Claw",
+        "data": "Jul 18, 2013",
+        "posicio": "#34"
+      },
+      {
+        "nom": "Volume 4 - Ura vs Ura",
+        "data": "Jul 18, 2013",
+        "posicio": "#33"
+      },
+      {
+        "nom": "Volume 4 - Will to Destroy",
+        "data": "Jul 18, 2013",
+        "posicio": "#32"
+      },
+      {
+        "nom": "Volume 4 - Mature",
+        "data": "Jul 18, 2013",
+        "posicio": "#31"
+      },
+      {
+        "nom": "Volume 4 - Brotherly Love",
+        "data": "Jul 18, 2013",
+        "posicio": "#30"
+      },
+      {
+        "nom": "Volume 4 - What Have You Done",
+        "data": "Jul 18, 2013",
+        "posicio": "#29"
+      },
+      {
+        "nom": "Volume 4 - Off-Tune",
+        "data": "Jul 18, 2013",
+        "posicio": "#28"
+      },
+      {
+        "nom": "Volume 4 - Discord",
+        "data": "Jul 18, 2013",
+        "posicio": "#27"
+      },
+      {
+        "nom": "Volume 4 - In High Spirits",
+        "data": "Jul 18, 2013",
+        "posicio": "#26"
+      },
+      {
+        "nom": "Volume 4 - OXRelationship",
+        "data": "Jul 18, 2013",
+        "posicio": "#25"
+      },
+      {
+        "nom": "Volume 3 - Hated",
+        "data": "Jun 18, 2013",
+        "posicio": "#24"
+      },
+      {
+        "nom": "Volume 3 - For the Sake of Growing",
+        "data": "Jun 18, 2013",
+        "posicio": "#23"
+      },
+      {
+        "nom": "Volume 3 - Awakening Lab",
+        "data": "Jun 18, 2013",
+        "posicio": "#22"
+      },
+      {
+        "nom": "Volume 3 - Urabanchou of Salt Mid",
+        "data": "Jun 18, 2013",
+        "posicio": "#21"
+      },
+      {
+        "nom": "Volume 3 - Student Council",
+        "data": "Jun 18, 2013",
+        "posicio": "#20"
+      },
+      {
+        "nom": "Volume 3 - Conclusion",
+        "data": "Jun 18, 2013",
+        "posicio": "#19"
+      },
+      {
+        "nom": "Volume 3 - Unidentifiable",
+        "data": "Jun 18, 2013",
+        "posicio": "#18"
+      },
+      {
+        "nom": "Volume 2 - Psychic Power and I",
+        "data": "Feb 18, 2013",
+        "posicio": "#17"
+      },
+      {
+        "nom": "Volume 2 - Ochimusha",
+        "data": "Feb 18, 2013",
+        "posicio": "#16"
+      },
+      {
+        "nom": "Volume 2 - Completely Vanished",
+        "data": "Feb 18, 2013",
+        "posicio": "#15"
+      },
+      {
+        "nom": "Volume 2 - Same Kind",
+        "data": "Feb 18, 2013",
+        "posicio": "#14"
+      },
+      {
+        "nom": "Volume 2 - Eyes that Only See Inferiority",
+        "data": "Feb 18, 2013",
+        "posicio": "#13"
+      },
+      {
+        "nom": "Volume 2 - Eye of the Typhoon",
+        "data": "Feb 18, 2013",
+        "posicio": "#12"
+      },
+      {
+        "nom": "Volume 2 - Idiot-Only Event",
+        "data": "Feb 18, 2013",
         "posicio": "#11"
       },
       {
-        "nom": "10.",
-        "data": "Jan 1, 2022",
+        "nom": "Volume 2 - The Gifted One",
+        "data": "Feb 18, 2013",
         "posicio": "#10"
+      },
+      {
+        "nom": "Volume 1 - The Spirit Who Wants to Become God",
+        "data": "Nov 16, 2012",
+        "posicio": "#9"
+      },
+      {
+        "nom": "Volume 1 - Break Down",
+        "data": "Nov 16, 2012",
+        "posicio": "#8"
+      },
+      {
+        "nom": "Volume 1 - Sheeple",
+        "data": "Nov 16, 2012",
+        "posicio": "#7"
+      },
+      {
+        "nom": "Volume 1 - Invitation",
+        "data": "Nov 16, 2012",
+        "posicio": "#6"
+      },
+      {
+        "nom": "Volume 1 - I Just Want to be Popular",
+        "data": "Nov 16, 2012",
+        "posicio": "#5"
+      },
+      {
+        "nom": "Volume 1 - For Oneself",
+        "data": "Nov 16, 2012",
+        "posicio": "#4"
+      },
+      {
+        "nom": "Volume 1 - From the Telepathy Club - Kurata Tome",
+        "data": "Nov 16, 2012",
+        "posicio": "#3"
+      },
+      {
+        "nom": "Volume 1 - A Naive Question",
+        "data": "Nov 16, 2012",
+        "posicio": "#2"
+      },
+      {
+        "nom": "Volume 1 - Self Proclaimed Psychic - Reigen Arataka",
+        "data": "Nov 16, 2012",
+        "posicio": "#1"
       },
     ]
   },
