@@ -7,6 +7,7 @@ export interface Webcomic {
   Autor:string;
   Puntuacion:number;
   Fav:boolean;
+  Preview:number;
   Capitulos: {
     nom: string,
     data: string,

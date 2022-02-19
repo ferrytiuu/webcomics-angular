@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WebcomicFichaComponent } from './webcomic-ficha.component';
+import { WebcomicPreviewComponent } from './webcomic-preview.component';
 
 describe('WebcomicFichaComponent', () => {
-  let component: WebcomicFichaComponent;
-  let fixture: ComponentFixture<WebcomicFichaComponent>;
+  let component: WebcomicPreviewComponent;
+  let fixture: ComponentFixture<WebcomicPreviewComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ WebcomicFichaComponent ]
+      declarations: [ WebcomicPreviewComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WebcomicFichaComponent);
+    fixture = TestBed.createComponent(WebcomicPreviewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

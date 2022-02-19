@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
 import { Menu_encaminamentComponent } from './menu/menu.component';
 import { CercaComponent } from './cerca/cerca.component';
 import { PreferitsComponent } from './preferits/preferits.component';
-import { WebcomicFichaComponent } from './webcomic-ficha/webcomic-ficha.component';
+import { WebcomicPreviewComponent } from './webcomic-preview/webcomic-preview.component';
 import { webcomicNgComponent } from './webcomic-ng/webcomic-ng.component';
 
 import { filtrarPipe } from './filtrar-cerca/filtrar-cerca.component';
@@ -33,7 +33,7 @@ import {CONFIG} from "../DB/db";
     Menu_encaminamentComponent,
     CercaComponent,
     PreferitsComponent,
-    WebcomicFichaComponent,
+    WebcomicPreviewComponent,
     webcomicNgComponent,
     filtrarPipe,
     WebcomicCardComponent,

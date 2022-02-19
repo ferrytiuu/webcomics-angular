@@ -25,7 +25,6 @@ export class WebcomicCardComponent implements OnInit {
   }
 
   abrirModal(id:number):void{
-
     const modalRef = this.modalService.open(webcomicNgComponent,{size:'xl'});
     modalRef.componentInstance.name = 'World';
     modalRef.componentInstance.comic= this.webcomic;

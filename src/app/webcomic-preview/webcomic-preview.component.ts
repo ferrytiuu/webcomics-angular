@@ -4,16 +4,18 @@ import {WebcomicServei} from "../dadesServei/servei_Webcomic";
 import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
-  selector: 'app-webcomic-ficha',
-  templateUrl: './webcomic-ficha.component.html',
+  selector: 'app-webcomic-preview',
+  templateUrl: './webcomic-preview.component.html',
   styleUrls: ['./webcomic-ficha.component.css']
 })
-export class WebcomicFichaComponent implements OnInit {
+export class WebcomicPreviewComponent implements OnInit {
 
   webcomics: Webcomic[] =[];
   webcomic:Webcomic;
   //webcomics:any;
   id:string | null;
+
+  preview:number[];
   constructor(private WebcomicService: WebcomicServei,private router: Router,private route: ActivatedRoute,) {
   }
 
@@ -31,6 +33,7 @@ export class WebcomicFichaComponent implements OnInit {
     this.WebcomicService.obtenirWebcomics()
       .subscribe(element => this.webcomics = element);
     [this.webcomic] = this.webcomics.filter(element => element.id.toString() == this.id );
+    this.preview = Array.from({length: this.webcomic.Preview}, (_, i) => i + 1)
   }
 
 }

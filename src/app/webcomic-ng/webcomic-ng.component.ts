@@ -67,6 +67,8 @@ export class webcomicNgComponent implements OnInit{
   @Input() id:String;
 
   constructor(
+    private router: Router,
+    private route: ActivatedRoute,
     public activeModal: NgbActiveModal,
     private localSt:LocalStorageService,
     private dbService: NgxIndexedDBService){}
@@ -75,27 +77,20 @@ export class webcomicNgComponent implements OnInit{
     console.log(this.id);
 
   }
+  abrirPreview(id:number){
+    /*window.open(url, "_blank");
+    this.router.navigate(['/webcomic'], { queryParams: { id: id } });*/
+    var strWindowFeatures = "location=yes,height=1920,width=820,scrollbars=yes,status=yes";
+
+    const url = this.router.serializeUrl(this.router.createUrlTree(['/webcomic'], { queryParams: { id: id } }));
+    //window.open(url, '_blank');
+    var win = window.open(url, "_blank", strWindowFeatures);
+  }
   updateWebStorage(id:number,puntuacion:number){
     this.localSt.store(id.toString(), puntuacion);
     console.log("guardad:"+id.toString()+'||'+puntuacion);
   }
   updateIndexeddb(id:number,fav:boolean){
-    /**
-    try {
-      this.dbService.add('WebtoonsFavs',
-        {id:id,fav:!fav})
-        .subscribe((key) => {
-          console.log("Data added successfully");
-          console.log('key: ', key);
-        });
-    }catch (e) {
-      this.dbService
-        .updateByKey('WebtoonsFavs', {id:id,fav:!fav},'id')
-        .subscribe((item) => {
-          console.log('item: ', item);
-        });
-
-    }**/
     this.comic.Fav= !this.comic.Fav!;
     this.dbService
       .update('WebtoonsFavs', {id:id,fav:!fav})
