@@ -90,3 +90,47 @@ h5 {
 h5:not(:first-child) {
     margin-top: 30px;
 }
+
+.boto-preferits{
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    padding:5px;
+}
+
+.boto-no-preferits{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding:5px;
+}
+
+.preferits-afegit{
+    opacity: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    position: absolute;
+    float:right;
+    border: 2px solid green;
+    background-color:rgba(0, 255, 0, 0.3);
+    color: green;
+    font-weight: bold;
+    top: 10px;
+    right: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
+
+.preferits-esborrat{
+    opacity: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    position: absolute;
+    float:right;
+    border: 2px solid red;
+    background-color:rgba(255, 0, 0, 0.3);
+    color: red;
+    font-weight: bold;
+    top: 10px;
+    right: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}

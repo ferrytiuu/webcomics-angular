@@ -15,19 +15,28 @@
   </div>
   <div class="descripcio">
     <div class="informacio">
-      <ul><h5>Informació</h5>
+      <ul>
+        <h5>Informació</h5>
         <li><b>Gènere: </b>{{comic.Genere}}</li>
         <li><b>Autor/a: </b>{{comic.Autor}}</li>
       </ul>
     </div>
     <h5>Descripció</h5>
     <p class="descripcio-cos">{{comic.Descripcio}}</p>
-    <p>review</p>
-    <h5>Puntuacion</h5>
-    <ngb-rating (leave)="updateWebStorage(comic.id,comic.Puntuacion)"  [(rate)]="comic.Puntuacion" [readonly]="false" ></ngb-rating>
+    <h5>Puntuació</h5>
+    <ngb-rating (leave)="updateWebStorage(comic.id,comic.Puntuacion)" [(rate)]="comic.Puntuacion" [readonly]="false">
+    </ngb-rating>
     <br><br>
-    <button (click)="updateIndexeddb(comic.id,comic.Fav) ">mostrar efecte</button>
-    <h5>Preview</h5><br>
-    <p class="descripcio-cos">review</p><br>
+    <button *ngIf="!comic.Fav" class="boto-preferits" (click)="updateIndexeddb(comic.id,comic.Fav);afegir()">Afegir a preferits</button>
+    <button *ngIf="comic.Fav" class="boto-no-preferits" (click)="updateIndexeddb(comic.id,comic.Fav);esborrar() ">Treure de preferits</button>
+    <h5>Preview</h5>
+    <p class="descripcio-cos">Preview</p>
   </div>
+
+</div>
+<div class="preferits-afegit" [@afegir]="stateName">
+  Afegit a preferits
+</div>
+<div class="preferits-esborrat" [@esborrar]="stateName2">
+  Esborrat de preferits
 </div>

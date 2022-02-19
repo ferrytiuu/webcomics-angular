@@ -10,9 +10,6 @@ import {LocalStorageService, SessionStorageService} from 'ngx-webstorage';
 
 
 
-
-
-
 @Component({
   selector: 'aplicacio',
   templateUrl: './inici.component.html',
@@ -24,7 +21,7 @@ import {LocalStorageService, SessionStorageService} from 'ngx-webstorage';
       ), state('shown', style({
         transform: 'translateY(0%)', opacity: 1})
       ), transition('hidden => shown', [
-        animate('1s')
+        animate('0.75s')
       ]),
     ])
   ]
@@ -36,7 +33,7 @@ export class IniciComponent implements OnInit {
   ngAfterViewInit() {
     setTimeout(() => {
       this.state = 'shown';
-    }, 200);
+    }, 100);
   }
 
   webcomics: Webcomic[] = [];
