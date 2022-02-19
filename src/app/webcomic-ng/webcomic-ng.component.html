@@ -30,7 +30,7 @@
     <button *ngIf="!comic.Fav" class="boto-preferits" (click)="updateIndexeddb(comic.id,comic.Fav);afegir()">Afegir a preferits</button>
     <button *ngIf="comic.Fav" class="boto-no-preferits" (click)="updateIndexeddb(comic.id,comic.Fav);esborrar() ">Treure de preferits</button>
     <h5>Preview</h5>
-    <p class="descripcio-cos">Preview</p>
+    <button class="btn btn-info">Previsualitza</button>
   </div>
 
 </div>
