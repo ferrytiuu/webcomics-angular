@@ -19,7 +19,8 @@ export class WebcomicServei implements OnInit{
    constructor(private storage:LocalStorageService,private dbService: NgxIndexedDBService) {
 
     WEBCOMIC.forEach((webcomic, index, webcomics) => {
-      webcomic.Puntuacion =storage.retrieve(webcomic.id.toString()) ;
+      webcomic.Puntuacion =storage.retrieve(webcomic.id.toString()) ?? 0  ;
+      console.log("Puntuacion: "+ webcomic.Puntuacion);
       webcomics[index] = webcomic;
     });
 

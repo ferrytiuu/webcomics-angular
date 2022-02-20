@@ -1,1 +1,22 @@
-<p>estadistiques works!</p>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col"  class="noselect" (click)="ordenarPer($event)" ord="true">Titulo</th>
+    <th scope="col" class="noselect" (click)="ordenarPer($event)" ord="true">Genere</th>
+    <th scope="col" class="noselect" (click)="ordenarPer($event)" ord="true">Puntuacion</th>
+    <th scope="col"  class="noselect"(click)="ordenarPer($event)" ord="true">Favorito</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let webcomic of webcomics | ordenarTaula:ordenarTipo:ordenarComo; index as i">
+    <th scope="row">{{ i + 1 }}</th>
+    <td>{{ webcomic.Titol }}</td>
+    <td>{{ webcomic.Genere }}</td>
+    <td>{{ webcomic.Puntuacion }}</td>
+
+    <td *ngIf="webcomic.Fav">Si</td>
+    <td *ngIf="!webcomic.Fav">No</td>
+  </tr>
+  </tbody>
+</table>

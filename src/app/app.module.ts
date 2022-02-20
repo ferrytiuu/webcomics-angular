@@ -25,6 +25,7 @@ import {NgxWebstorageModule} from 'ngx-webstorage';
 import {NgxIndexedDBModule} from "ngx-indexed-db";
 import {CONFIG} from "../DB/db";
 import { EstadistiquesComponent } from './estadistiques/estadistiques.component';
+import { OrdenarTaulaPipe } from './ordenar-taula.pipe';
 
 
 @NgModule({
@@ -40,6 +41,7 @@ import { EstadistiquesComponent } from './estadistiques/estadistiques.component'
     WebcomicCardComponent,
     AnimacionsComponent,
     EstadistiquesComponent,
+    OrdenarTaulaPipe,
   ],
   imports: [
     BrowserModule,
