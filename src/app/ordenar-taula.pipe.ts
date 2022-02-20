@@ -47,22 +47,22 @@ export class OrdenarTaulaPipe implements PipeTransform {
   transform(webcomics: Webcomic[], ...args: string[]): Webcomic[] {
     let tipo:string = args[1];
     console.log(tipo);
-    if (args[0] == "Titulo") {
+    if (args[0] == "Títol") {
       webcomics.sort(this.compareTitol);
       if(tipo == "true") return webcomics;
       else if (tipo=="false") return webcomics.reverse();
     }
-    if (args[0] == "Genere") {
+    if (args[0] == "Gènere") {
       webcomics.sort(this.compareGenere);
       if(tipo == "true") return webcomics;
       else if (tipo=="false") return webcomics.reverse();
     }
-    if (args[0] == "Puntuacion") {
+    if (args[0] == "Puntuació") {
       webcomics.sort(this.comparePuntuacio);
       if(tipo == "true") return webcomics;
       else if (tipo=="false") return webcomics.reverse();
     }
-    if (args[0] == "Favorito") {
+    if (args[0] == "Preferit") {
       webcomics.sort(this.compareFav);
       if(tipo == "true") return webcomics;
       else if (tipo=="false") return webcomics.reverse();
