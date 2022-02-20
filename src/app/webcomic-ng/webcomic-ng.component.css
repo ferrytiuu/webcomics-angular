@@ -50,7 +50,7 @@ img {
     color: black;
     line-height: 60px;
     display: block;
-    
+
 }
 
 .capitol-nom {
@@ -58,7 +58,7 @@ img {
 }
 
 .capitol-data{
-    float: right;   
+    float: right;
     margin-right: 40px;
 }
 
@@ -133,4 +133,8 @@ h5:not(:first-child) {
     right: 10px;
     padding: 5px 15px 5px 15px;
     border-radius: 20px;
+}
+
+.btn{
+  margin-bottom: 40px;
 }

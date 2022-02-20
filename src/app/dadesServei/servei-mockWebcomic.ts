@@ -994,7 +994,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Descripcio": "On a school trip, a girl named Finley has a chance encounter with one of the creatures of the deep",
     "Puntuacion": 5,
     "Fav": false,
-    "Preview":3,
+    "Preview":12,
     "Capitulos": [
       {
         "nom": "11.",
@@ -1736,7 +1736,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Descripcio": "A dungeon-guiding gig goes sideways for explorer Stetch Atelier when the prince who hired him tricks him into activating a fatal curse. But instead of staying dead, Stetch is resurrected by a sentient artifact that offers him a deal that may help him get his revenge. To hold up his end of the bargain, Stetch sets off on a long journey of raiding dungeons, slaying monsters, and making new enemies and friends along the way.",
     "Puntuacion": 5,
     "Fav": false,
-    "Preview":3,
+    "Preview":261,
     "Capitulos": [
       {
         "nom": "Ep. 47 - Spiratus",
@@ -2018,7 +2018,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Descripcio": "Sunflower, a Coocoo bird raised by a family of Warblers, has always longed for a place where she belongs. Upon leaving the nest, her birth family comes to claim her as the heir to East Side Coocoos, the greatest bird mafia in the city.",
     "Puntuacion": 5,
     "Fav": false,
-    "Preview":3,
+    "Preview":16,
     "Capitulos": [
       {
         "nom": "Chapter 5- Her false Family (Part 1)",
@@ -2081,7 +2081,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Descripcio": "Seongwu is a former special forces soldier who has returned to college after completing his national service. His ordinary life as a student is shattered during class one day when he and his fellow students are faced with a mysterious prompt asking them to “select a role.” Seongwu chooses the necromancer, a rare ability that grants him the power to control the undead. With the campus and outside world seemingly on the brink of collapse, Seongwu must use his newfound powers to battle fearsome monsters and help save his fellow students. But will they make it out alive?",
     "Puntuacion": 5,
     "Fav": false,
-    "Preview":3,
+    "Preview":220,
     "Capitulos": [
       {
         "nom": "Ep. 10 - The Orc Unit Hunting the Survivors (4)",
@@ -2144,7 +2144,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Descripcio": "In a world where only special people known as Nomads are allowed to travel, Lance sets out with one goal in mind: to find his missing brother. However, his journey takes an unexpected turn when he meets Satra, a wannabe Nomad with a hidden past, and Saber, a cat with mysterious powers. What starts off as great company soon turns into more than he bargained for when wanted posters start popping up… and he’s being chased by bounty hunters?!",
     "Puntuacion": 5,
     "Fav": false,
-    "Preview":3,
+    "Preview":51,
     "Capitulos": [
       {
         "nom": "Episode 24",
@@ -2277,7 +2277,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Descripcio": "In an attempt to contact ghosts, Lucas misuses an Ouija board and gets into trouble. Now Foster must protect Lucas from the evil spirits that wish him harm.",
     "Puntuacion": 5,
     "Fav": false,
-    "Preview":3,
+    "Preview":9,
     "Capitulos": [
       {
         "nom": "CH 1 Page 36-41",
@@ -2330,7 +2330,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Descripcio": "Lady-in-waiting, Lucia believes getting through the royal wedding will be the toughest part of her new life. That is until she finds herself falling head over heels with Modeus, an up-and-coming knight to the king's guard. With her newfound interest, she is quickly awakened to the mysteries of the kingdom when she learns Modeus is in fact an enchanted suit of armor without a soul. Could there be more to him than just shining armor?",
     "Puntuacion": 5,
     "Fav": false,
-    "Preview":3,
+    "Preview":121,
     "Capitulos": [
       {
         "nom": "Episode 55",
