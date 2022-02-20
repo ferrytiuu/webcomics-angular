@@ -3,9 +3,11 @@ import { Webcomic } from './webcomic_interface';
 import { WEBCOMIC } from './servei-mockWebcomic';
 import {async, Observable, of} from 'rxjs';
 import {LocalStorageService} from "ngx-webstorage";
+import {ESTADOMENU} from "./servei-mockMenu";
 
 import { NgxIndexedDBService } from "ngx-indexed-db";
 import {resolve} from "@angular/compiler-cli/src/ngtsc/file_system";
+import {resourceChangeTicket} from "@angular/compiler-cli/src/ngtsc/core";
 
 
 @Injectable({
@@ -67,8 +69,10 @@ export class WebcomicServei implements OnInit{
       console.log(peoples);
     });
 
+  }
 
-
+  estadoMenu():Observable<{ estado: boolean }> {
+     return of(ESTADOMENU);
   }
 
 
