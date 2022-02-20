@@ -14,7 +14,7 @@ export class WebcomicPreviewComponent implements OnInit {
   webcomic:Webcomic;
   //webcomics:any;
   id:string | null;
-
+  menuEstado: { estado:boolean };
   preview:number[];
   constructor(private WebcomicService: WebcomicServei,private router: Router,private route: ActivatedRoute,) {
   }
@@ -23,10 +23,14 @@ export class WebcomicPreviewComponent implements OnInit {
     /*this.id=this.route.snapshot.paramMap.get("id");
     this.id = this.route.snapshot.params.id;
     let id;*/
+    this.estadoMenu();
     this.route.queryParams.subscribe(params => {
       this.id = params['id'];
+      this.menuEstado.estado = params['estadoMenu'];
     });
     this.obtenirWebcomic();
+
+
   }
 
   obtenirWebcomic(): void {
@@ -34,6 +38,11 @@ export class WebcomicPreviewComponent implements OnInit {
       .subscribe(element => this.webcomics = element);
     [this.webcomic] = this.webcomics.filter(element => element.id.toString() == this.id );
     this.preview = Array.from({length: this.webcomic.Preview}, (_, i) => i + 1)
+  }
+
+  estadoMenu(): void {
+    this.WebcomicService.estadoMenu()
+      .subscribe(element => this.menuEstado = element);
   }
 
 }

@@ -78,12 +78,8 @@ export class webcomicNgComponent implements OnInit{
 
   }
   abrirPreview(id:number){
-    /*window.open(url, "_blank");
-    this.router.navigate(['/webcomic'], { queryParams: { id: id } });*/
     var strWindowFeatures = "location=yes,height=1920,width=820,scrollbars=yes,status=yes";
-
-    const url = this.router.serializeUrl(this.router.createUrlTree(['/webcomic'], { queryParams: { id: id } }));
-    //window.open(url, '_blank');
+    const url = this.router.serializeUrl(this.router.createUrlTree(['/webcomic'], { queryParams: { id: id , estadoMenu:false} }));
     var win = window.open(url, "_blank", strWindowFeatures);
   }
   updateWebStorage(id:number,puntuacion:number){

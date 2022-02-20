@@ -24,6 +24,7 @@ import { AnimacionsComponent } from './animacions/animacions.component';
 import {NgxWebstorageModule} from 'ngx-webstorage';
 import {NgxIndexedDBModule} from "ngx-indexed-db";
 import {CONFIG} from "../DB/db";
+import { EstadistiquesComponent } from './estadistiques/estadistiques.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import {CONFIG} from "../DB/db";
     filtrarPipe,
     WebcomicCardComponent,
     AnimacionsComponent,
+    EstadistiquesComponent,
   ],
   imports: [
     BrowserModule,
