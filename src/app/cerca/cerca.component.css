@@ -1,4 +1,4 @@
-#barracerca{
+#barracerca {
   margin-top: 1rem;
   margin-bottom: 1rem;
   width: 35%;
@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: 500px 500px 100px;
   grid-column-gap: 5px;
-  
+
 }
 
 #row {
@@ -18,10 +18,28 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+
 }
 
 .image-holder {
   padding: 0.625rem;
 }
 
+.no-trobats {
+  font-family: 'Hind Siliguri', sans-serif;
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  padding-top:1%;
+  
+  border: 20px black;
+  border-style: double;
+
+}

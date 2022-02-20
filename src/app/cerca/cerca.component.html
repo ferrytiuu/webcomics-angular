@@ -1,8 +1,8 @@
 <div>
 
     <div id="barracerca">
-        <input [(ngModel)]="cercaTitol"  type="text"  class="form-control" placeholder="CERCA PER TÍTOL"/>
-        <input [(ngModel)]="cercaAutor"  type="text"  class="form-control" placeholder="CERCA PER AUTOR"/>
+        <input [(ngModel)]="cercaTitol" type="text" class="form-control" placeholder="CERCA PER TÍTOL" />
+        <input [(ngModel)]="cercaAutor" type="text" class="form-control" placeholder="CERCA PER AUTOR" />
         <div ngbDropdown class="d-inline-block">
             <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>{{cercaGenere}}</button>
             <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
@@ -13,10 +13,16 @@
         </div>
     </div>
 
+    <div class="no-trobats" *ngIf="(webcomics | ordenarPer:cercaTitol:cercaAutor:cercaGenere).length === 0">
+        <img src="../../assets/Altres/notrobat.png" height="110px" width="110px"><br><br>
+        Lamentablement, no s'ha trobat cap resultat.<br>
+        Intenta-ho amb uns altres filtres.
+    </div>
     <div class="images-wrapper">
-        <div class="image-holder" *ngFor="let webcomic of webcomics | ordenarPer:cercaTitol:cercaAutor:cercaGenere;index as i; first as isPrimer">
-          <app-webcomic-card [webcomic]="webcomic">
-          </app-webcomic-card>
+        <div class="image-holder"
+            *ngFor="let webcomic of webcomics | ordenarPer:cercaTitol:cercaAutor:cercaGenere;index as i; first as isPrimer">
+            <app-webcomic-card [webcomic]="webcomic">
+            </app-webcomic-card>
         </div>
     </div>
 

@@ -1,10 +1,11 @@
 <div>
+
   <div class="images-wrapper">
     <ng-container *ngFor="let webcomic of webcomics;index as i; first as isPrimer">
-    <div class="image-holder" *ngIf="webcomic.Fav==true">
-      <app-webcomic-card [webcomic]="webcomic">
-      </app-webcomic-card>
-    </div>
+      <div class="image-holder" *ngIf="webcomic.Fav==true">
+        <app-webcomic-card [webcomic]="webcomic">
+        </app-webcomic-card>
+      </div>
     </ng-container>
   </div>
 </div>

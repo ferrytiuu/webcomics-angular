@@ -18,6 +18,7 @@
   text-align: center;
   font-family: 'Hind Siliguri', sans-serif;
   height: 40rem;
+  position: relative;
 
 }
 
@@ -40,4 +41,14 @@ h1{
 .text-comic{
   padding-top: 1rem;
   background-color: white;
+}
+
+
+.icona-preferits{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  overflow: visible;
+  height: 40px;
+  width: 40px;
 }

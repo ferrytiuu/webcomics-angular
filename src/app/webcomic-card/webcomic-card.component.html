@@ -1,9 +1,9 @@
-
 <div class="comics" (click)="abrirModal(webcomic.id)" [ngbTooltip]="tipContent">
-  <ng-template #tipContent   >
+  <ng-template #tipContent>
     <ngb-rating [(rate)]="webcomic.Puntuacion" [readonly]="false"></ngb-rating>
   </ng-template>
-  <img src="../../assets/{{webcomic.Titol}}/imatge_caratula.jpg" alt="Planta1" >
+  <img class="caratula" src="../../assets/{{webcomic.Titol}}/imatge_caratula.jpg" alt="Imatge Webcomic">
+  <div *ngIf="webcomic.Fav"><img class="icona-preferits" src="../../assets/Altres/heart.png"></div>
   <div class="text-comic">
     <h1>{{webcomic.Titol}}</h1>
     <p class="autor">{{webcomic.Autor}}</p>
