@@ -42,3 +42,24 @@
   border-style: double;
 
 }
+
+.btn-outline-primary{
+  color: orange;
+  border-color: orange;
+}
+
+.btn-outline-primary:hover{
+  color: white;
+  border-color: orange;
+  background-color: orange;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle{
+  color: white;
+  border-color: orange;
+  background-color: orange;
+}
+
+.btn-outline-primary.dropdown-toggle:focus{
+  box-shadow: 0 0 0 .2rem rgba(255,165,0,.5);
+}
