@@ -1984,7 +1984,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Descripcio": "Florence’s obsession with becoming an influencer leads him to ever more dangerous acts. The last one cost him his life, but not even death can stop him. With a little help from a more experienced ghost to guide him through his new unmaterial condition, Florence is determined more than ever to accomplish his dreams. After all, death is just another form of existence.\n(Updates monthly)\nWarnings: series will contain depictions of death and mental health.",
     "Puntuacion": 5,
     "Fav": false,
-    "Preview":3,
+    "Preview":81,
     "Capitulos": [
       {
         "nom": "Chapter 1.3 - Basic course for ghosts",

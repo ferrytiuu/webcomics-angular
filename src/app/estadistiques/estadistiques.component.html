@@ -1,3 +1,4 @@
+
 <table class="table table-striped">
   <thead>
   <tr>
@@ -13,10 +14,11 @@
     <th scope="row">{{ i + 1 }}</th>
     <td>{{ webcomic.Titol }}</td>
     <td>{{ webcomic.Genere }}</td>
-    <td>{{ webcomic.Puntuacion }}</td>
+    <td class="puntuacion">{{ webcomic.Puntuacion }}</td>
 
     <td *ngIf="webcomic.Fav">Si</td>
     <td *ngIf="!webcomic.Fav">No</td>
   </tr>
   </tbody>
 </table>
+
