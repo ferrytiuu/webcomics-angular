@@ -23,6 +23,7 @@
     "@ng-bootstrap/ng-bootstrap": "^10.0.0",
     "angular-animate": "^1.8.2",
     "bootstrap": "^4.5.0",
+    "jquery": "^3.6.0",
     "ngx-indexed-db": "^10.0.0",
     "ngx-webstorage": "^9.0.0",
     "rxjs": "~6.6.0",
