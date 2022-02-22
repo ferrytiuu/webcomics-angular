@@ -10,7 +10,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Descripcio": "Unlike his friends, Takumi Fujiwara is not particularly interested in cars, with little to no knowledge about the world of car enthusiasts and street racers. The son of a tofu shop owner, he is tasked to deliver tofu every morning without fail, driving along the mountain of Akina. Thus, conversations regarding cars or driving in general would only remind Takumi of the tiring daily routine forced upon him. ",
     "Puntuacion": 5,
     "Fav": false,
-    "Preview":76,
+    "Preview":37,
     "Capitulos": [
       {
         "nom": "Chapter 26 - The New Downhill Legend!",
@@ -153,7 +153,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Descripcio": "Denji has a simple dream—to live a happy and peaceful life, spending time with a girl he likes. This is a far cry from reality, however, as Denji is forced by the yakuza into killing devils in order to pay off his crushing debts. Using his pet devil Pochita as a weapon, he is ready to do anything for a bit of cash.",
     "Puntuacion": 5,
     "Fav": false,
-    "Preview":3,
+    "Preview":48,
     "Capitulos": [
       {
         "nom": "Volume 11 - I, Love, Chainsaw",
@@ -651,7 +651,7 @@ export let WEBCOMIC: Webcomic[] = [
     "Descripcio": "Eighth-grader Shigeo 'Mob' Kageyama has tapped into his inner wellspring of psychic prowess at a young age. But the power quickly proves to be a liability when he realizes the potential danger in his skills. Choosing to suppress his power, Mob's only present use for his ability is to impress his longtime crush, Tsubomi, who soon grows bored of the same tricks.",
     "Puntuacion": 5,
     "Fav": false,
-    "Preview":3,
+    "Preview":19,
     "Capitulos": [
       {
         "nom": "Volume 8 - Voice",
